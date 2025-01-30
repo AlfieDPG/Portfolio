@@ -7379,6 +7379,14 @@ form .row:first-child .floating-label-form-group {
   background-color: #393e43;
   color: #fff; }
 
+/* Asegura que los iconos estén centrados */
+.footer .small {
+  display: flex;
+  justify-content: center; /* Centra los iconos horizontalmente */
+  align-items: center; /* Alinea verticalmente */
+  gap: 15px; /* Espacio entre iconos */
+}
+
 .copyright {
   background-color: #222527; }
 
