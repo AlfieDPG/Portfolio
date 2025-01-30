@@ -7373,19 +7373,34 @@ h3 {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef; }
 
-.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #393e43;
-  color: #fff; }
-
-/* Asegura que los iconos estén centrados */
-.footer .small {
-  display: flex;
-  justify-content: center; /* Centra los iconos horizontalmente */
-  align-items: center; /* Alinea verticalmente */
-  gap: 15px; /* Espacio entre iconos */
-}
+  .footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #393e43;
+    color: #fff;
+  }
+  
+  /* Asegura que la fila dentro del footer use flexbox y esté centrada */
+  .footer .row {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Asegura que los elementos estén alineados verticalmente */
+  }
+  
+  /* Asegura que el contenedor de los iconos también esté centrado */
+  .footer .col-auto {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Aplica estilos directamente a los iconos para centrado y espaciado */
+  .footer .small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espacio entre iconos */
+  }
+  
 
 .copyright {
   background-color: #222527; }
